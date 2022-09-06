@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class AboutMeetup extends Component {
-  render() {
-    return (
-      <section className='about-meetup'>
+function AboutMeetup() {
+  return (
+    <section className='about-meetup'>
         <h4>About Meetup</h4>
         <div className='about-meetup-desc'>
             <p>
@@ -12,6 +11,7 @@ export default class AboutMeetup extends Component {
             </p>
         </div>
       </section>
-    )
-  }
+  )
 }
+
+export default AboutMeetup

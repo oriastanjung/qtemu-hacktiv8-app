@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from 'react'
 
-export default class Members extends Component {
-  render() {
-    return (
-      <>
+function Members() {
+  return (
+    <>
         <div className="members-section-header">
           <h4>Members</h4>
           <p>See all</p>
@@ -21,6 +20,7 @@ export default class Members extends Component {
           </div>
         </section>
       </>
-    );
-  }
+  )
 }
+
+export default Members
