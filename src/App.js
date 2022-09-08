@@ -7,6 +7,7 @@ import AboutMeetup from "./components/AboutMeetup/AboutMeetup";
 import Members from "./components/Members/Members";
 import PastMeetups from "./components/PastMeetups/PastMeetups";
 import Footer from "./components/Footer/Footer";
+import LatihanHooks from "./components/LatihanHooks/LatihanHooks";
 
 function App() {
   const [meetUpHero, setMeetUpHero] = useState({
@@ -34,6 +35,7 @@ function App() {
       <Members />
       <PastMeetups />
       <Footer />
+      <LatihanHooks />
     </>
   );
 }
